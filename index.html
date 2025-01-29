@@ -25,52 +25,164 @@
       <div class="row mb-2">
         <div class="input-group">
           <div class="col-sm-6">
-            <input type="text" id="result" onclick="SumInputs()" class="form-control" />
+            <input type="text" id="result" class="form-control" />
           </div>
         </div>
       </div>
       <div class="row mb-2">
         <div class="col-sm-2">
-          <input type="button" class="btn btn-dark w-100" value="1" onclick="getValue(1)" />
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="1"
+            onclick="getValue(1)"
+          />
         </div>
         <div class="col-sm-2">
-          <input type="button" class="btn btn-dark w-100" value="2" onclick="getValue(2)"/>
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="2"
+            onclick="getValue(2)"
+          />
         </div>
         <div class="col-sm-2">
-          <input type="button" class="btn btn-dark w-100" value="3" onclick="getValue(3)"/>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-sm-2">
-          <input type="button" class="btn btn-dark w-100" value="4" onclick="getValue(4)" />
-        </div>
-        <div class="col-sm-2">
-          <input type="button" class="btn btn-dark w-100"  value="5" onclick="getValue(5)"/>
-        </div>
-        <div class="col-sm-2">
-          <input type="button" class="btn btn-dark w-100" value="6" onclick="getValue(6)"/>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-sm-2">
-          <input type="button" class="btn btn-dark w-100"value="7" onclick="getValue(7)"/>
-        </div>
-        <div class="col-sm-2">
-          <input type="button" class="btn btn-dark w-100" value="8" onclick="getValue(8)" />
-        </div>
-        <div class="col-sm-2">
-          <input type="button" class="btn btn-dark w-100" value="9" onclick="getValue(9)"/>
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="+"
+            onclick="getValue('+')"
+          />
         </div>
       </div>
       <div class="row mb-2">
         <div class="col-sm-2">
-          <input type="button" class="btn btn-dark w-100" value="0" onclick="getValue(0)" />
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="3"
+            onclick="getValue(3)"
+          />
         </div>
         <div class="col-sm-2">
-          <input type="button" class="btn btn-dark w-100" value="+" onclick="getValue('+')"/>
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="4"
+            onclick="getValue(4)"
+          />
         </div>
         <div class="col-sm-2">
-          <input type="button" class="btn btn-dark w-100" value="=" onclick="SumInputs()"/>
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="-"
+            onclick="getValue('-')"
+          />
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-sm-2">
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="5"
+            onclick="getValue(5)"
+          />
+        </div>
+        <div class="col-sm-2">
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="6"
+            onclick="getValue(6)"
+          />
+        </div>
+        <div class="col-sm-2">
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="*"
+            onclick="getValue('*')"
+          />
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-sm-2">
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="7"
+            onclick="getValue(7)"
+          />
+        </div>
+        <div class="col-sm-2">
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="8"
+            onclick="getValue(8)"
+          />
+        </div>
+        <div class="col-sm-2">
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="/"
+            onclick="getValue('/')"
+          />
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-sm-2">
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="9"
+            onclick="getValue('9')"
+          />
+        </div>
+        <div class="col-sm-2">
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="0"
+            onclick="getValue('0')"
+          />
+        </div>
+        <div class="col-sm-2">
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="="
+            onclick="operationOfInputs()"
+          />
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-sm-2">
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="%"
+            onclick="getValue('%')"
+          />
+        </div>
+        <div class="col-sm-2">
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="."
+            onclick="getValue('.')"
+          />
+        </div>
+        <div class="col-sm-2">
+          <input
+            type="button"
+            class="btn btn-dark w-100"
+            value="CE"
+            onclick="cleanDisplay()"
+          />
         </div>
       </div>
     </div>
